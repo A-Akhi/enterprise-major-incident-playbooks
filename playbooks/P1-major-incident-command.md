@@ -20,7 +20,6 @@
 
 ## 3. Immediate Action Protocol (First 15 Minutes)
 
-```text
 [00:00 - Outage Detected] ──> [00:05 - Declare P1 & Spin Up Bridge] ──> [00:10 - Isolate Blast Radius] ──> [00:15 - First Stakeholder Update]
 1. **Bridge Initialization:** Establish a quiet, dedicated technical working bridge.
 2. **Quarantine Noise:** Mute all non-essential observers; route executive queries to the asynchronous status channel.
@@ -29,7 +28,7 @@
 
 ---
 
-## 4. Triage & Blast Radius Isolation Flowchart
+**## 4. Triage & Blast Radius Isolation Flowchart**
 
 * **Step 1: Identity & Access:** Is this an authentication layer issue (e.g., OAuth/SSO timeout)?
 * **Step 2: Network & Ingress:** Are load balancers, CDN routes, or DNS record propagation healthy?
