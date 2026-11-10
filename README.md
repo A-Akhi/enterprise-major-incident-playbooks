@@ -21,7 +21,7 @@ This repository provides structured, battle-tested operational artifacts to:
 enterprise-major-incident-playbooks/
 ├── README.md # Executive summary, portfolio overview, and framework alignment
 ├── playbooks/
-│   ├── P1-major-incident-command.md # Major Incident Management command and rapid-response protocols
+│   ├── [P1-major-incident-command.md](playbooks/P1-major-incident-command.md) # Major Incident Management command
 │   └── incident-commander-first-15-min.md # Tactical first 15-minute execution checklist for Incident Commanders
 ├── templates/
 │   ├── blameless-post-mortem-template.md # Root Cause Analysis (RCA) and post-mortem template
