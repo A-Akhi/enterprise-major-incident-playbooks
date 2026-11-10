@@ -7,16 +7,17 @@ A practitioner-led collection of production-grade incident command playbooks, tr
 In modern platform environments, Mean Time to Restore (MTTR) is often inflated not by technical complexity, but by operational friction: administrative bridge overhead, stakeholder noise, and uncoordinated triage. 
 
 This repository provides structured, battle-tested operational artifacts to:
-* Establish decisive **Single-Threaded Incident Command**.
-* Quarantine executive noise through asynchronous status routing.
-* Accelerate blast-radius isolation during cascading platform failures.
-* Bridge operational outages with security incident handling (NIST SP 800-61 / SecOps handoffs).
-* Drive post-incident resilience through blameless retrospectives and audit-ready Root Cause Analysis (RCA).
+- Establish decisive **Single-Threaded Incident Command**.
+- Quarantine executive noise through asynchronous status routing.
+- Accelerate blast-radius isolation during cascading platform failures.
+- Bridge operational outages with security incident handling (NIST SP 800-61 / SecOps handoffs).
+- Drive post-incident resilience through blameless retrospectives and audit-ready Root Cause Analysis (RCA).
 
 ---
 
 ## 🗂️ Repository Structure
- ```text
+
+```text
 enterprise-major-incident-playbooks/
 ├── README.md # Executive summary, portfolio overview, and framework alignment
 ├── playbooks/
@@ -31,4 +32,3 @@ enterprise-major-incident-playbooks/
 │   └── cab-governance-and-emergency-changes.md # Change Advisory Board (CAB) risk tiering, eCAB protocol, and DoD checklists
 └── metrics/
     └── sla-slo-error-budget-governance.md # CSI framework, SLI/SLO/SLA definitions, and error budget enforcement gates
-
