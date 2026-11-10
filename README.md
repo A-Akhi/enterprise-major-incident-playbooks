@@ -17,16 +17,17 @@ This repository provides structured, battle-tested operational artifacts to:
 
 ## 🗂️ Repository Structure
 
-```text
 enterprise-major-incident-playbooks/
-├── README.md                                # Repository overview & usage guide
+├── README.md                                       # Executive summary, portfolio overview, and framework alignment
 ├── playbooks/
-│   ├── P1-major-incident-command.md         # Core P1 bridge command & triage protocol
-│   ├── cascading-microservice-outage.md    # Dependency & latency bottleneck isolation
-│   ├── database-failover-and-consensus.md   # Data tier degradation & failover steps
-│   └── security-escalation-handoff.md       # SecOps bridge handoff & threat containment
+│   ├── P1-major-incident-command.md                # Major Incident Management command and rapid-response protocols
+│   └── incident-commander-first-15-min.md          # Tactical first 15-minute execution checklist for Incident Commanders
 ├── templates/
-│   ├── blameless-post-mortem-template.md    # Incident retrospective & RCA framework
-│   └── executive-stakeholder-comm.md        # Asynchronous stakeholder status templates
-└── checklists/
-    └── incident-commander-first-15-min.md   # Initial triage & change-freeze checklist
+│   ├── blameless-post-mortem-template.md           # Root Cause Analysis (RCA) and post-mortem template
+│   └── known-error-database-process.md             # KEDB entry templates and recurring failure tracking
+├── problem-management/
+│   └── problem-investigation-and-rca-lifecycle.md  # Problem investigation lifecycles, prioritization matrix, and KEDB integration
+├── change-management/
+│   └── cab-governance-and-emergency-changes.md     # Change Advisory Board (CAB) risk tiering, eCAB protocol, and DoD checklists
+└── metrics/
+    └── sla-slo-error-budget-governance.md          # CSI framework, SLI/SLO/SLA definitions, and error budget enforcement gates
