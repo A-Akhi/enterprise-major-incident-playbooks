@@ -16,18 +16,17 @@ This repository provides structured, battle-tested operational artifacts to:
 ---
 
 ## 🗂️ Repository Structure
-
 enterprise-major-incident-playbooks/
-├── README.md                                       # Executive summary, portfolio overview, and framework alignment
+├── README.md # Executive summary, portfolio overview, and framework alignment
 ├── playbooks/
-│   ├── P1-major-incident-command.md                # Major Incident Management command and rapid-response protocols
-│   └── incident-commander-first-15-min.md          # Tactical first 15-minute execution checklist for Incident Commanders
+│   ├── P1-major-incident-command.md # Major Incident Management command and rapid-response protocols
+│   └── incident-commander-first-15-min.md # Tactical first 15-minute execution checklist for Incident Commanders
 ├── templates/
-│   ├── blameless-post-mortem-template.md           # Root Cause Analysis (RCA) and post-mortem template
-│   └── known-error-database-process.md             # KEDB entry templates and recurring failure tracking
+│   ├── blameless-post-mortem-template.md # Root Cause Analysis (RCA) and post-mortem template
+│   └── known-error-database-process.md # KEDB entry templates and recurring failure tracking
 ├── problem-management/
-│   └── problem-investigation-and-rca-lifecycle.md  # Problem investigation lifecycles, prioritization matrix, and KEDB integration
+│   └── problem-investigation-and-rca-lifecycle.md # Problem investigation lifecycles, prioritization matrix, and KEDB integration
 ├── change-management/
-│   └── cab-governance-and-emergency-changes.md     # Change Advisory Board (CAB) risk tiering, eCAB protocol, and DoD checklists
+│   └── cab-governance-and-emergency-changes.md # Change Advisory Board (CAB) risk tiering, eCAB protocol, and DoD checklists
 └── metrics/
-    └── sla-slo-error-budget-governance.md          # CSI framework, SLI/SLO/SLA definitions, and error budget enforcement gates
+    └── sla-slo-error-budget-governance.md # CSI framework, SLI/SLO/SLA definitions, and error budget enforcement gates
