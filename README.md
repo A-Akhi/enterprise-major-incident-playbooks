@@ -1,5 +1,12 @@
 # Enterprise Major Incident Management (MIM) Playbooks
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![ITIL 4](https://img.shields.io/badge/Framework-ITIL%204-blue.svg)](https://www.axelos.com/certifications/itil-service-management)
+[![NIST SP 800-61](https://img.shields.io/badge/SecOps-NIST%20SP%20800--61-orange.svg)](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+A practitioner-led collection of production-grade incident command playbooks...
+
 A practitioner-led collection of production-grade incident command playbooks, triage frameworks, and communication templates designed to streamline high-severity (P1/P2) incident response across modern cloud platforms and enterprise architectures.
 
 ## 🎯 Overview
