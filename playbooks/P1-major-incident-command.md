@@ -28,7 +28,7 @@
 
 ---
 
-**## 4. Triage & Blast Radius Isolation Flowchart**
+## 4. Triage & Blast Radius Isolation Flowchart
 
 * **Step 1: Identity & Access:** Is this an authentication layer issue (e.g., OAuth/SSO timeout)?
 * **Step 2: Network & Ingress:** Are load balancers, CDN routes, or DNS record propagation healthy?
