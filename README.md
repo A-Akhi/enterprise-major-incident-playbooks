@@ -16,6 +16,7 @@ This repository provides structured, battle-tested operational artifacts to:
 ---
 
 ## 🗂️ Repository Structure
+**` ```text `**
 enterprise-major-incident-playbooks/
 ├── README.md # Executive summary, portfolio overview, and framework alignment
 ├── playbooks/
@@ -30,3 +31,4 @@ enterprise-major-incident-playbooks/
 │   └── cab-governance-and-emergency-changes.md # Change Advisory Board (CAB) risk tiering, eCAB protocol, and DoD checklists
 └── metrics/
     └── sla-slo-error-budget-governance.md # CSI framework, SLI/SLO/SLA definitions, and error budget enforcement gates
+**` ```text `**
