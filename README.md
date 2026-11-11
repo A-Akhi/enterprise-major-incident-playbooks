@@ -4,15 +4,26 @@
 [![Framework: ITIL 4](https://img.shields.io/badge/Framework-ITIL%204-blue.svg)](https://www.axelos.com/certifications/itil-service-management)
 [![Contributions welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-Repository for practitioner-grade major incident response, problem management, change governance, and reliability operations guidance for enterprise platforms.
+Practitioner-grade guidance for major incident command, governance, reliability engineering, and post-incident improvement in enterprise platform environments.
 
-## Repository structure
+## Repository purpose
+
+This repository is designed as an operational library for teams responsible for production stability, incident response, and service resilience. It supports several common operating model functions:
+
+- rapid response during high-severity incidents
+- structure for incident command and stakeholder communication
+- security escalation and evidence-handling coordination
+- controlled change and emergency-change execution
+- recurring problem analysis and root-cause remediation
+- SLO, SLA, and error-budget governance
+
+## Enterprise-standard layout
 
 ```text
 enterprise-major-incident-playbooks/
 ├── README.md
-├── CONTRIBUTING.md
 ├── LICENSE
+├── CONTRIBUTING.md
 ├── docs/
 │   ├── README.md
 │   └── repo-layout.md
@@ -26,46 +37,70 @@ enterprise-major-incident-playbooks/
 │   │   └── problem-investigation-and-rca-lifecycle.md
 │   └── security/
 │       └── secops-sirt-escalation-matrix.md
+├── runbooks/
+│   ├── README.md
+│   ├── incident-response/
+│   │   └── p1-incident-execution.md
+│   └── service-recovery/
+│       └── service-restoration-checklist.md
 ├── governance/
 │   ├── README.md
 │   ├── change-management/
 │   │   └── cab-governance-and-emergency-changes.md
 │   └── metrics/
 │       └── sla-slo-error-budget-governance.md
+├── policies/
+│   ├── README.md
+│   └── incident-governance-policy.md
+├── checklists/
+│   ├── README.md
+│   ├── incident-command-checklist.md
+│   └── change-readiness-checklist.md
+├── escalation/
+│   ├── README.md
+│   └── security-and-ops-escalation-paths.md
 ├── templates/
-│   └── blameless-post-mortem-template.md
+│   ├── README.md
+│   ├── blameless-post-mortem-template.md
+│   └── executive-status-update-template.md
+├── examples/
+│   ├── README.md
+│   └── incident-communication-example.md
 ├── Incident Management/
 ├── Change Management/
 ├── Problem Management/
 ├── Metrics/
 ├── Security/
-└── ...
+└── legacy-compatibility/
+    └── README.md
 ```
 
-The new `playbooks/`, `governance/`, and `templates/` folders form the primary structure. The existing named folders remain as compatibility shims so current links continue to resolve.
+## Primary navigation
 
-## Start here
+- [Incident command and response](playbooks/incident/README.md)
+- [Problem management](playbooks/problem/problem-investigation-and-rca-lifecycle.md)
+- [Security / SIRT handoff](playbooks/security/secops-sirt-escalation-matrix.md)
+- [Governance and change control](governance/change-management/cab-governance-and-emergency-changes.md)
+- [Reliability metrics and error budgets](governance/metrics/sla-slo-error-budget-governance.md)
+- [Templates](templates/README.md)
+- [Checklists](checklists/README.md)
+- [Escalation paths](escalation/README.md)
 
-- [Incident Commander first 15 minutes](playbooks/incident/incident-commander-first-15-min.md)
-- [P1 major incident command](playbooks/incident/p1-major-incident-command.md)
-- [SecOps / SIRT escalation matrix](playbooks/security/secops-sirt-escalation-matrix.md)
-- [CAB governance and emergency changes](governance/change-management/cab-governance-and-emergency-changes.md)
-- [Problem investigation and RCA lifecycle](playbooks/problem/problem-investigation-and-rca-lifecycle.md)
-- [Blameless post-mortem template](templates/blameless-post-mortem-template.md)
-- [SLA / SLO / error budget governance](governance/metrics/sla-slo-error-budget-governance.md)
+## Compatibility note
 
-## How to use this repo
+The original named folders remain in place for ongoing links and historical references. The new folders are the canonical home for future repository growth and operational content.
 
-1. Establish a single incident commander, communication channel, and a written timeline during P1 response.
-2. Use the security runbook whenever suspicious access, data movement, or malware indicators are involved.
-3. Apply change controls before high-risk production changes and use eCAB only under approved emergency criteria.
-4. Convert post-incident findings into problem records and action items so recurring issues do not repeat.
-5. Track service health through SLOs, error budgets, and monthly reliability reviews.
+## Suggested usage
+
+1. Start with the playbooks during active response or major incident triage.
+2. Use runbooks when standardizing execution steps across teams.
+3. Apply policies and governance guidance for change approvals and reliability guardrails.
+4. Add examples and templates to standardize communication, review, and recovery artifacts.
 
 ## Contributing
 
-This repo welcomes operational improvements, additional playbooks, and clearer templates. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting changes.
+Please review [CONTRIBUTING.md](CONTRIBUTING.md) before submitting changes.
 
 ## License
 
-This project is distributed under the [MIT License](LICENSE).
+Distributed under the [MIT License](LICENSE).

@@ -1,26 +1,23 @@
 # Repository layout
 
-This repository is organized around operational use cases rather than a single monolithic document set.
+This repository uses a layered operating model rather than a single flat document collection.
 
-## Structure overview
+## Structure summary
 
 ```text
-playbooks/
-  incident/
-  problem/
-  security/
-
-governance/
-  change-management/
-  metrics/
-
-templates/
-  blameless-post-mortem-template.md
+playbooks/       -> response and command execution guidance
+runbooks/        -> operational procedures and tactical execution flows
+governance/      -> cab, metrics, and reliability control frameworks
+policies/        -> formal policy and operating expectations
+checklists/      -> fast-action checklists and readiness gates
+escalation/      -> escalation paths and coordination triggers
+templates/       -> reusable forms and standard status/review templates
+examples/        -> illustrative artifacts and communication samples
 ```
 
-## Design goals
+## Design principles
 
-- make primary guidance easy to find during an incident
-- separate policy and governance from execution playbooks
-- keep reusable templates in a dedicated area
-- preserve addressability for older repository references
+- keep live response content separate from governance and policy
+- keep reusable artifacts in dedicated template folders
+- preserve compatibility with older, topic-based folder names
+- make the repository usable by both responders and leadership
