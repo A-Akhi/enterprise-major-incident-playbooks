@@ -1,24 +1,25 @@
 # Incident Commander's First 15 Minutes
 
-This checklist is used immediately after a P1 is declared.
+Use this checklist immediately after a P1 declaration. Follow the organization's incident policy, authorization model, and security procedures; this checklist does not grant approval to make changes.
 
 ## 00:00–00:05
 
-- [ ] Declare the incident and record impact, severity, and time.
-- [ ] Open the emergency bridge and a written source-of-truth channel.
-- [ ] Assign roles: Incident Commander, Technical Lead, Communications Lead, and Scribe.
+- [ ] Declare the incident and record its ID, severity, time, and known impact.
+- [ ] Open the incident bridge and a written source-of-truth channel.
+- [ ] Assign an Incident Commander, Technical Lead, Communications Lead, and Scribe; name backups if needed.
 
 ## 00:05–00:10
 
-- [ ] Quarantine executive noise to approved status channels.
-- [ ] Freeze non-essential changes in the affected service domain.
-- [ ] Review telemetry, recent changes, and alert chronology.
+- [ ] Establish the impact scope and identify affected services, customers, and dependencies.
+- [ ] Review telemetry, recent changes, and alert chronology; distinguish verified facts from hypotheses.
+- [ ] Pause or restrict non-essential changes only through the authorized incident/change process.
 
 ## 00:10–00:15
 
-- [ ] Select one working hypothesis and align SMEs around it.
-- [ ] Publish the first update with impact, mitigation, and next update time.
-- [ ] Set a 15-minute checkpoint cadence and document decisions.
+- [ ] Assign owners to the highest-priority investigation paths and agree on the next decision point.
+- [ ] Publish an initial update with impact, knowns and unknowns, actions, and the next update time.
+- [ ] Set the response cadence and maintain a decision and action log.
+- [ ] Escalate promptly if security compromise, data exposure, or evidence-preservation needs are suspected.
 
 ## Immediate follow-up
 

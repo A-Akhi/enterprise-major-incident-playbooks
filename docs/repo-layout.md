@@ -1,23 +1,25 @@
 # Repository layout
 
-This repository uses a layered operating model rather than a single flat document collection.
-
-## Structure summary
+This repository is a Markdown reference library organized by the operational purpose of each document. The top-level structure is:
 
 ```text
-playbooks/       -> response and command execution guidance
-runbooks/        -> operational procedures and tactical execution flows
-governance/      -> cab, metrics, and reliability control frameworks
-policies/        -> formal policy and operating expectations
-checklists/      -> fast-action checklists and readiness gates
-escalation/      -> escalation paths and coordination triggers
-templates/       -> reusable forms and standard status/review templates
-examples/        -> illustrative artifacts and communication samples
+checklists/      Fast execution and readiness aids
+ docs/           Navigation and repository-maintenance guidance
+ escalation/     Security and operations escalation routes
+ examples/       Illustrative artifacts
+ governance/     Change and reliability oversight
+ legacy-compatibility/  Migration note only; no legacy topic folders are included
+ playbooks/      Incident command, problem management, and security guidance
+ policies/       Formal incident-governance expectations
+ runbooks/       Repeatable procedures for execution and recovery
+ templates/      Reusable status and post-incident documents
 ```
 
-## Design principles
+Use the sections according to their roles:
 
-- keep live response content separate from governance and policy
-- keep reusable artifacts in dedicated template folders
-- preserve compatibility with older, topic-based folder names
-- make the repository usable by both responders and leadership
+- **Playbooks** explain decision-making and coordination during an operational scenario.
+- **Runbooks** provide repeatable sequences for carrying out work and verifying recovery.
+- **Policies and governance** state expectations and approval controls; adapt them to local authority and regulatory requirements.
+- **Checklists, templates, and examples** support execution and documentation without replacing local procedures.
+
+Keep links relative to the document that contains them, and update the root README and this guide whenever a section is added, renamed, or removed.

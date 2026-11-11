@@ -1,18 +1,16 @@
-# Documentation
+# Documentation index
 
-This repository is organized for operational clarity and long-term maintainability. The primary content is split by use case and lifecycle stage.
+This directory explains how to navigate and maintain this Markdown reference library; operational procedures live in the sections below.
 
-## Top-level sections
+## Sections
 
-- [playbooks/](../playbooks/README.md): response and coordination guidance during active incidents
-- [runbooks/](../runbooks/README.md): repeatable procedures used in execution and recovery
-- [governance/](../governance/README.md): policy, CAB, and reliability oversight
-- [policies/](../policies/README.md): formal service and operational policy references
-- [checklists/](../checklists/README.md): short-form execution aids and readiness criteria
-- [escalation/](../escalation/README.md): operational and security escalation routes
-- [templates/](../templates/README.md): reusable documents and standard formats
-- [examples/](../examples/README.md): sample artifacts for communication, workflow, and review
+- [Playbooks](../playbooks/README.md) — command guidance for incidents, problem management, and security handoffs.
+- [Runbooks](../runbooks/README.md) — repeatable incident-execution and service-recovery procedures.
+- [Governance](../governance/README.md) — change management and reliability oversight.
+- [Policies](../policies/README.md) — formal incident-governance expectations.
+- [Checklists](../checklists/README.md) — concise execution and readiness aids.
+- [Escalation](../escalation/README.md) — operations and security escalation routes.
+- [Templates](../templates/README.md) — reusable communication and review documents.
+- [Examples](../examples/README.md) — illustrative artifacts; adapt them to local policy.
 
-## Legacy compatibility
-
-The original top-level folders remain available to preserve existing links and repository references.
+For the directory map and guidance on keeping the sections distinct, see [Repository layout](repo-layout.md).
